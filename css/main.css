@@ -24,32 +24,60 @@ a {
     font-weight: 500;
 }
 
+    .banner {
+        background-image: url('../images/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 25vw;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+    }
+    .banner-title{
+        font-size: 2.6rem;
+        margin: 0;
+        text-align: right;
+        text-transform: uppercase;
+        width: 25%;
+    
+    }
 .main {
     background-color:#b4c2dd ;
     color: white;
 }
-.banner {
-    background-image: url('../images/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    height: 25vw;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 
-}
-.banner-title{
-    font-size: 2.6rem;
-    margin: 0;
-    text-align: right;
-    text-transform: uppercase;
-    width: 25%;
-
-}
 
 
 footer {
     background-color: pink;
 }
+
+.sections {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {2px dotted;
+    width: 5rem;
+    height: 5rem;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-anchor {
+    text-transform: uppercase;
+    padding: 1.2rem .8rem;
+    font-size: .55rem;
+    margin: 0;
+}
+
